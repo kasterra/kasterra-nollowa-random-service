@@ -19,7 +19,7 @@ const Main = () => {
               <button
                 className="start_btn"
                 onClick={() => {
-                  navigate("./question");
+                  navigate("./loading");
                 }}
               >
                 시작하기
