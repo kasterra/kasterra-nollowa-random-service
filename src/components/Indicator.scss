@@ -1,0 +1,23 @@
+.indicator_container {
+  margin-top: 100px;
+  height: 100px;
+  border: 1.34552px solid #bdbdbd;
+  box-shadow: 0px 2.69104px 5.38208px rgba(0, 0, 0, 0.1);
+  border-radius: 6.72761px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .indicators {
+    display: flex;
+    gap: 34px;
+    .button {
+      width: 20px;
+      height: 20px;
+      border: 2.69104px solid #2091f9;
+      border-radius: 50%;
+    }
+    .filled {
+      background-color: #2091f9;
+    }
+  }
+}

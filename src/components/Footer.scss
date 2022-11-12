@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto&display=swap");
+
+.Footer_wrap {
+  position: absolute;
+  top: calc(100vh - 100px);
+  right: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: calc(100vw - 140px);
+}
+.Footer_left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  span {
+    font-family: "IBM Plex Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+  }
+}
+.Footer_right {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  color: #5c5c5c;
+}
