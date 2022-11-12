@@ -28,7 +28,7 @@ function Result() {
           <br />
           <button
             className="Twitter_btn"
-            onClick={() => alert("구현 준비중입니당")}
+            onClick={() => alert("없지롱")}
           >
             <img src={twitterlogo} alt="twitter logo" />
             Twitter에 공유하기
@@ -36,7 +36,7 @@ function Result() {
           <br />
           <button
             className="Facebook_btn"
-            onClick={() => alert("구현 준비중입니당")}
+            onClick={() => alert("이것도 없지롱")}
           >
             <img src={facebooklogo} alt="facebook logo" />
             Facebook에 공유하기
