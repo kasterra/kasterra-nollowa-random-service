@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 148px;
+  gap: 100px;
   .title {
     display: flex;
     flex-direction: column;
@@ -13,12 +13,14 @@
       font-weight: 700;
       font-size: 24px;
       line-height: 36px;
+      margin-top: 50px;
     }
     h2 {
       font-weight: 700;
       font-size: 40px;
       line-height: 57px;
       color: #252b42;
+      margin: 0;
     }
   }
   .cards {
@@ -31,14 +33,16 @@
         gap: 10px;
         align-items: center;
         .idx {
-          width: 75px;
-          height: 75px;
+          width: 60px;
+          height: 60px;
           background: linear-gradient(39.97deg, #00f3b9 0.79%, #2187ff 79.29%);
           border-radius: 75px;
           display: flex;
           justify-content: center;
           align-items: center;
           color: #fff;
+          font-size: 20px;
+          font-weight: 600;
         }
         .choice {
           font-family: "Montserrat";
@@ -51,4 +55,8 @@
       }
     }
   }
+}
+.idx:hover {
+  cursor: pointer;
+  outline: 3px solid #bdbdbda8;
 }
