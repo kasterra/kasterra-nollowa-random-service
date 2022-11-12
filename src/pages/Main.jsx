@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import "./Main.scss";
 import laptop from "../images/laptop.png";
 import { useNavigate } from "react-router-dom";
+import mainData from "../data/mainData";
 
 const Main = () => {
   console.log(laptop);
@@ -14,7 +15,7 @@ const Main = () => {
           <div>
             <img src={laptop} alt="laptop" />
             <div>
-              <h2>오늘 점심 메뉴 추천기</h2>
+              <h2>{mainData[Math.floor(Math.random() * 3)].tilte}</h2>
               <span>당신의 시간을 알차게 낭비해보세요</span>
               <button
                 className="start_btn"

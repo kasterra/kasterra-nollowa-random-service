@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 import twitterlogo from "../images/twitterlogo.png";
 import facebooklogo from "../images/facebooklogo.png";
+import resultData from "../data/resultData";
 
 function Result() {
   const naviagte = useNavigate();
@@ -14,7 +15,7 @@ function Result() {
           <span>🥳🥳 축하합니다 🥳🥳</span>
           <br />
           <div className="Result_box">
-            <span>당신의 눈은 두 개입니다.</span>
+            <span>{resultData[Math.floor(Math.random() * 4)].result}</span>
           </div>
           <button
             className="restart_btn"
