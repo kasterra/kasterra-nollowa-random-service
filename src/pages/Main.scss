@@ -53,4 +53,16 @@
   align-items: center;
   padding: 12px 30px;
   margin-top: 30px;
+  animation: moving 0.3s infinite;
+}
+@keyframes moving {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 100px;
+  }
+  100% {
+    margin-left: 0;
+  }
 }
